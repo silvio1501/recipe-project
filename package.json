@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "dev": "gatsby clean & gatsby develop",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -16,6 +17,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "autoprefixer": "^10.4.16",
     "gatsby": "^5.12.12",
     "gatsby-plugin-image": "^3.12.3",
